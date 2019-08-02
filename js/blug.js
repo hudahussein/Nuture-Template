@@ -5,6 +5,9 @@ $(document).scroll(function () {
     
     $('.navbar').toggleClass('scrolled', $(this).scrollTop() > $('.navbar').height());
 });
+
+
+
 var swiper = new Swiper('.swiper-container', {
     effect: 'coverflow',
     grabCursor: true,
